@@ -1,0 +1,235 @@
+@import "import-css";
+
+header {
+    background: #fcdb00;
+}
+
+.custom-container {
+    max-width: 940px;
+    margin: auto;
+    a{
+        color: #010101;
+        font-size: 22px;
+        font-family: 'PT Sans', sans-serif;
+        box-sizing: content-box;
+        font-weight: 700;
+        &:hover{
+        }
+    }
+    button span{
+        background: #010101;
+    }
+}
+.navbar-header button{
+    margin-top: 20px;
+}
+.nav>li>a{
+    padding: 10px 33px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-nav>li>a{
+    line-height: 47px;
+
+}
+
+.carousel-inner{
+    img{
+        padding-bottom: 110px;
+        display: block;
+        margin: 0 auto;
+    }
+    .slide-text{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    h3{
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        padding-top: 70px;
+    }
+    h4{
+        font-family: 'MyriadProRegular';
+        font-size: 20px;
+        padding-top: 20px;
+        line-height: 24px;
+    }
+    p{
+        font-family: 'MyriadProRegular';
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    a{
+
+        margin: 30px 30px 30px 0;
+
+        i{
+
+            font-size: 40px;
+        }
+    }
+}
+.carousel-indicators{
+    li, .active{
+        width: 14px;
+        height: 14px;
+        border: none;
+    }
+    li {
+        background: rgba(255, 255, 255, 0.5);
+        margin: 0;
+    }
+}
+main {
+    padding: 120px 0 165px;
+    .top{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 740px;
+        h3{
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            padding-bottom: 15px;
+        }
+        p{
+            font-family: 'MyriadProRegular';
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .block i{
+        float: left;
+        font-size: 40px;
+
+    }
+    .block{
+        margin-top: 85px;
+        .text{
+            margin-left: 60px;
+
+            h4{
+                font-family: 'PT Sans', sans-serif;
+                font-size: 22px;
+                margin-bottom: 16px;
+            }
+            p{
+                font-family: 'PT Sans', sans-serif;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    }
+}
+footer{
+    padding: 100px 0 125px;
+    background: #010101;
+    .top{
+
+        margin: 0 auto;
+        max-width: 740px;
+        text-align: center;
+        h4{
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            color: #fcdb00;
+            margin-bottom: 18px;
+        }
+        p{
+            font-family: 'MyriadProRegular';
+            color: #898989;
+            font-size: 20px;
+            margin-bottom: 40px;
+            line-height: 24px;
+        }
+        button{
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 700;
+            background: #fcdb00;
+            border: none;
+            color: #010101;
+            text-shadow: none;
+        }
+        input{
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 300;
+            color: #898989;
+        }
+        .social{
+            margin: 70px 0 120px;
+        }
+        a {
+            margin-right:  15px;
+            i{
+                color: #fcdb00;
+                font-size: 40px;
+            }
+        }
+    }
+    .bottom{
+        p{
+            font-family: 'MyriadProRegular';
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 20px;
+
+        }
+        a{
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 300;
+            color: #ffffff;
+            font-size: 16px;
+            margin-bottom: 4px;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+
+    }
+    .form-group{
+        margin-right: 140px;
+    }
+    .top button {
+        float: right;
+        height: 50px;
+        width: 130px;
+        font-size: 16px;
+    }
+    .top input {
+        font-size: 16px;
+        height: 50px;
+    }
+    .text_container{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    ul{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+}
+.btn-default:focus, .btn-default:hover{
+    background-color: #fcdb00;
+}
+@media screen and (min-width: 768px){
+    .carousel-indicators {
+    bottom: 40px;
+    }
+}
+
+@media all and (max-width: 768px){
+    footer{
+        ul{
+            margin-top: 30px;
+        }
+    }
+}
+
+@import "media";
