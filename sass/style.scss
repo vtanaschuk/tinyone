@@ -3,7 +3,6 @@
 header {
     background: #fcdb00;
 }
-
 .custom-container {
     max-width: 940px;
     margin: auto;
@@ -32,7 +31,10 @@ header {
 }
 .navbar-nav>li>a{
     line-height: 47px;
-
+}
+.custom-container .navbar{
+    padding-top: 35px;
+    margin-bottom: 30px;
 }
 
 .carousel-inner{
@@ -40,10 +42,10 @@ header {
         padding-bottom: 110px;
         display: block;
         margin: 0 auto;
+        max-width: 100%;
     }
     .slide-text{
         max-width: 400px;
-        margin: 0 auto;
     }
     h3{
         font-family: 'PT Sans', sans-serif;
@@ -63,13 +65,13 @@ header {
         font-size: 16px;
         line-height: 20px;
     }
-    a{
-
-        margin: 30px 30px 30px 0;
-
-        i{
-
-            font-size: 40px;
+    .slide-text_soc{
+        margin: 30px 0;
+        a{
+            margin-right: 30px;
+            i{
+                font-size: 40px;
+            }
         }
     }
 }
@@ -218,18 +220,6 @@ footer{
 .btn-default:focus, .btn-default:hover{
     background-color: #fcdb00;
 }
-@media screen and (min-width: 768px){
-    .carousel-indicators {
-    bottom: 40px;
-    }
-}
 
-@media all and (max-width: 768px){
-    footer{
-        ul{
-            margin-top: 30px;
-        }
-    }
-}
 
 @import "media";
